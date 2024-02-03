@@ -1,0 +1,2 @@
+# CRUD_using_Django_Ajax_and_JQuery
+CRUD_using_Django_Ajax_and_JQuery
