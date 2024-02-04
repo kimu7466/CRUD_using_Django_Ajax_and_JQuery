@@ -1,0 +1,19 @@
+<<<1>>> unable to delete just after adding data 
+
+it required refresh after saving new data to delete immediately
+
+shown error is given below
+
+delete button clicked
+jquery.js:9940 
+        
+        
+       POST http://127.0.0.1:8000/delete/ 500 (Internal Server Error)
+send @ jquery.js:9940
+ajax @ jquery.js:9521
+(anonymous) @ (index):260
+dispatch @ jquery.js:5145
+elemData.handle @ jquery.js:4949
+
+
+<<<2>>> same problem as 1 for edit button
