@@ -10,14 +10,23 @@
 </head>
 <body>  
 
+    <style>
+body{
+    background-color: rgba(25, 0, 255, 0.436);
+}
+
+    </style>
+
 <div class="container mt-5">
-    <h2 class="text-center alert alert-danger">
+   
+    <h2 class="text-center alert alert-danger"  >
         Django Function Based View Ajax Bootstrap 5 CRUD Project
     </h2>
-    
 
     <div class="row">
+
         <div class="col-sm-4">
+            
             <h4 class="text-center alert alert-info">
                 Add/Update Student
             </h4>
@@ -42,7 +51,7 @@
                 Show Student Information
             </h4>
 
-            <table class="table table-hover">
+            <table class="table table-hover" >
                 <thead>
                     <tr>
                         <th scope="col">ID</th>
@@ -52,7 +61,7 @@
                         <th scope="col">Action</th>
                     </tr>
                 </thead>
-                <tbody  id="tbody">
+                <tbody  id="tbody" >
                     {% for st in stu %}
                     <tr>
                         <td>{{st.id}}</td>
@@ -74,10 +83,7 @@
                     </tr>
                     {% endfor %}
                 </tbody>
-
-
             </table>
-
         </div>
     </div>
 </div>
